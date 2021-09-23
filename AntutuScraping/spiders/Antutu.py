@@ -3,8 +3,8 @@ import scrapy
 
 class AntutuSpider(scrapy.Spider):
     name = 'Antutu'
+    allowed_domains = ['www.antutu.com']
     start_url = 'https://www.antutu.com/en/'
-    allowed_domains = [start_url]
     start_urls = [start_url + 'ranking/rank1.htm']
 
     headers = {
@@ -58,9 +58,3 @@ class AntutuSpider(scrapy.Spider):
                 'ux': ux[i],
                 'score': score[i]
             }
-
-        # Useless line
-        for device in devices:
-            print(device)
-
-        pass
