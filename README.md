@@ -1,4 +1,4 @@
-# AntutuScraping
+# antutu-scraping
 
 ## Resume
 
@@ -13,7 +13,7 @@ Web Scraping using Scrapy on Antutu Benchmark site
 pip install scrapy
 ```
 
-## How to change Anaconda Environments:
+## How to change Anaconda Environments
 
 ```sh
 # On Base
@@ -24,12 +24,12 @@ conda activate int-comp
 conda activate base
 ```
 
-## Scrapy commands:
+## Scrapy commands
 
 ### Creating project
 
 ```sh
-scrapy startproject AntutuScraping
+scrapy startproject antutu-scraping
 ```
 
 ### Generating Spider
